@@ -1,0 +1,37 @@
+{
+  "name": "xcoin-cryptocurrency",
+  "version": "1.0.0",
+  "description": "Criptomoeda universal XCOIN - Blockchain descentralizado",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "build": "tsc",
+    "test": "jest",
+    "dev": "ts-node-dev --respawn src/index.ts",
+    "clean": "rm -rf dist"
+  },
+  "keywords": [
+    "cryptocurrency",
+    "blockchain",
+    "xcoin",
+    "crypto",
+    "decentralized",
+    "mining"
+  ],
+  "author": "tiagobios1987-afk",
+  "license": "MIT",
+  "dependencies": {
+    "crypto": "^1.0.3",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "@types/express": "^4.17.17",
+    "typescript": "^5.0.0",
+    "ts-node": "^10.9.0",
+    "ts-node-dev": "^2.0.0",
+    "jest": "^29.0.0",
+    "@types/jest": "^29.0.0",
+    "ts-jest": "^29.0.0"
+  }
+}
